@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		863290CA26BA7B6B0001783E /* SwiftUIListExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290C926BA7B6B0001783E /* SwiftUIListExamplesApp.swift */; };
-		863290CC26BA7B6B0001783E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290CB26BA7B6B0001783E /* ContentView.swift */; };
+		863290CC26BA7B6B0001783E /* BasicDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290CB26BA7B6B0001783E /* BasicDynamicView.swift */; };
 		863290CE26BA7B700001783E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863290CD26BA7B700001783E /* Assets.xcassets */; };
 		863290D126BA7B700001783E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863290D026BA7B700001783E /* Preview Assets.xcassets */; };
+		863290D926BA84010001783E /* SectionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290D826BA84010001783E /* SectionListView.swift */; };
+		863290DB26BA91600001783E /* CustomRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290DA26BA91600001783E /* CustomRowView.swift */; };
+		863290DD26BA91A80001783E /* SwipeDeleteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290DC26BA91A80001783E /* SwipeDeleteListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		863290C626BA7B6B0001783E /* SwiftUIListExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIListExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		863290C926BA7B6B0001783E /* SwiftUIListExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIListExamplesApp.swift; sourceTree = "<group>"; };
-		863290CB26BA7B6B0001783E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		863290CB26BA7B6B0001783E /* BasicDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicDynamicView.swift; sourceTree = "<group>"; };
 		863290CD26BA7B700001783E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863290D026BA7B700001783E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		863290D226BA7B700001783E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863290D826BA84010001783E /* SectionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionListView.swift; sourceTree = "<group>"; };
+		863290DA26BA91600001783E /* CustomRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRowView.swift; sourceTree = "<group>"; };
+		863290DC26BA91A80001783E /* SwipeDeleteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDeleteListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				863290C926BA7B6B0001783E /* SwiftUIListExamplesApp.swift */,
-				863290CB26BA7B6B0001783E /* ContentView.swift */,
+				863290D826BA84010001783E /* SectionListView.swift */,
+				863290CB26BA7B6B0001783E /* BasicDynamicView.swift */,
+				863290DC26BA91A80001783E /* SwipeDeleteListView.swift */,
+				863290DA26BA91600001783E /* CustomRowView.swift */,
 				863290CD26BA7B700001783E /* Assets.xcassets */,
 				863290D226BA7B700001783E /* Info.plist */,
 				863290CF26BA7B700001783E /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				863290CC26BA7B6B0001783E /* ContentView.swift in Sources */,
+				863290DD26BA91A80001783E /* SwipeDeleteListView.swift in Sources */,
+				863290DB26BA91600001783E /* CustomRowView.swift in Sources */,
+				863290CC26BA7B6B0001783E /* BasicDynamicView.swift in Sources */,
+				863290D926BA84010001783E /* SectionListView.swift in Sources */,
 				863290CA26BA7B6B0001783E /* SwiftUIListExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
