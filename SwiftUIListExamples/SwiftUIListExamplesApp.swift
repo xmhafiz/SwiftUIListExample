@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIListExamplesApp: App {
     var body: some Scene {
         WindowGroup {
-            SwipeDeleteListView()
+            ListWithChildrenView()
         }
     }
 }
