@@ -16,6 +16,7 @@
 		863290DD26BA91A80001783E /* SwipeDeleteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290DC26BA91A80001783E /* SwipeDeleteListView.swift */; };
 		863290DF26BABDEF0001783E /* ListWithChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290DE26BABDEE0001783E /* ListWithChildrenView.swift */; };
 		863290E126BAC9CF0001783E /* RowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290E026BAC9CF0001783E /* RowItem.swift */; };
+		863290E326BACF120001783E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863290E226BACF120001783E /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		863290DC26BA91A80001783E /* SwipeDeleteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDeleteListView.swift; sourceTree = "<group>"; };
 		863290DE26BABDEE0001783E /* ListWithChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListWithChildrenView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		863290E026BAC9CF0001783E /* RowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowItem.swift; sourceTree = "<group>"; };
+		863290E226BACF120001783E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				863290DE26BABDEE0001783E /* ListWithChildrenView.swift */,
 				863290DA26BA91600001783E /* CustomRowView.swift */,
 				863290E026BAC9CF0001783E /* RowItem.swift */,
+				863290E226BACF120001783E /* DetailView.swift */,
 				863290CD26BA7B700001783E /* Assets.xcassets */,
 				863290D226BA7B700001783E /* Info.plist */,
 				863290CF26BA7B700001783E /* Preview Content */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863290DF26BABDEF0001783E /* ListWithChildrenView.swift in Sources */,
+				863290E326BACF120001783E /* DetailView.swift in Sources */,
 				863290E126BAC9CF0001783E /* RowItem.swift in Sources */,
 				863290DD26BA91A80001783E /* SwipeDeleteListView.swift in Sources */,
 				863290DB26BA91600001783E /* CustomRowView.swift in Sources */,

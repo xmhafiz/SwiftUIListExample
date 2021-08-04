@@ -10,14 +10,19 @@ struct BasicDynamicView: View {
     var bookTitles = [
         "Book 1",
         "Book 2",
-        "Book 4"
+        "Book 3"
     ]
     
     var body: some View {
-        List {
-            ForEach (bookTitles, id: \.self) { title in
-                CustomRowView(title: title)
+        NavigationView {
+            List {
+                ForEach (bookTitles, id: \.self) { title in
+                    NavigationLink(destination: DetailView(title: title)) {
+                        CustomRowView(title: title)
+                    }
+                }
             }
+            .navigationTitle("Books")
         }
     }
 }

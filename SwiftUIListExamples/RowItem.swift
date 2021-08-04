@@ -26,7 +26,7 @@ struct MockData {
             RowItem(title: "C Fundamentals"),
         ])
         
-        let author3 = RowItem(title: "Alice Wonderland", subItems: [
+        let author3 = RowItem(title: "Wayne Roonrey", subItems: [
             RowItem(title: "Testing Methods"),
             RowItem(title: "Software Engineering"),
             RowItem(title: "Javascript Fundamentals"),

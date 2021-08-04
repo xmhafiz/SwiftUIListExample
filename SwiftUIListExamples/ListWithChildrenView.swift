@@ -13,7 +13,6 @@ struct ListWithChildrenView: View {
         List(authors, children: \.subItems) { rowItem in
             ItemView(item: rowItem)
         }
-    
     }
 }
 
